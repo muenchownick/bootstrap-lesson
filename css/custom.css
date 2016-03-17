@@ -6,9 +6,17 @@
 .sidebar li {
   list-style: none;
 }
+.banner {
+  background: #F0F0F0;
+}
 
 .article{
-  border: 1px solid #66FF66
+  border: 1px solid #66FF66;
+  background: #f5fffa;
+}
+.newsarticle{
+  border: 1px solid #a3b0bf;
+  background: #f5faff;
 }
 
 div {
@@ -26,4 +34,18 @@ div {
     padding: 0;
     display: inline;
     font-size: 10px;
+}
+
+.articletitle {
+  font-weight: bold;
+  border: 1px solid #99CC33;
+  margin: 5px;
+  background: #cef2e0;
+
+}
+.newstitle {
+  font-weight: bold;
+  border: 1px solid #a3b0bf;
+  margin: 5px;
+  background: #cedff2;
 }
